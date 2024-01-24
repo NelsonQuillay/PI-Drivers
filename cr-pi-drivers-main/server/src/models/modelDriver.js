@@ -9,7 +9,7 @@ module.exports = (sequelize) => {
       defaultValue: DataTypes.UUIDV4,
       primaryKey: true,
     },
-    name: {
+    firstName: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -18,7 +18,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     description:{
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     image: {
@@ -29,7 +29,7 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    birthdate: {
+    birthDate: {
       type: DataTypes.STRING,
       allowNull: false,
     },
